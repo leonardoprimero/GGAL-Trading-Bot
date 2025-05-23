@@ -2,46 +2,53 @@
 
 ![GGAL Trading Bot](https://firebasestorage.googleapis.com/v0/b/leonardo-blog.firebasestorage.app/o/proyectos%2Flogo.webp?alt=media&token=53ca6d46-6501-4207-bb7b-f8c26c8c0c72)
 
-## Descripción
+## What is this?
 
-GGAL Trading Bot es una aplicación profesional de trading algorítmico diseñada específicamente para el ticker GGAL (Grupo Financiero Galicia). Utiliza técnicas de aprendizaje automático para predecir movimientos de precios y generar señales de compra/venta, permitiendo a los traders tomar decisiones informadas o automatizar sus estrategias.
+**GGAL Trading Bot** is a professional algorithmic trading application built specifically for the ticker GGAL (Grupo Financiero Galicia).  
+It uses machine learning to predict price moves and generate buy/sell signals—helping you make informed trading decisions, or even automate your whole strategy if that’s your vibe.
 
-La aplicación combina análisis técnico, machine learning y backtesting en una interfaz gráfica intuitiva y completa, facilitando tanto el análisis como la ejecución de operaciones.
+Think of it as a mashup of technical analysis, machine learning, and backtesting, all wrapped up in an interface so intuitive your grandma could use it (trust me, I tried).
 
-## Características Principales
+---
 
-- **Análisis de Datos Históricos**: Descarga y visualización de datos históricos de GGAL.
-- **Indicadores Técnicos**: Cálculo automático de RSI, volatilidad y cruces de medias móviles.
-- **Modelo Predictivo**: Implementación de árboles de decisión para predecir movimientos de precios.
-- **Backtesting**: Evaluación de estrategias con datos históricos y métricas de rendimiento.
-- **Interfaz Gráfica**: Visualización intuitiva de datos, señales y resultados.
-- **Trading en Vivo**: Generación de señales en tiempo real para tomar decisiones de trading.
-- **Personalización**: Ajuste de parámetros del modelo y estrategias según preferencias.
+## Main Features
 
-## Capturas de Pantalla
+- **Historical Data Analysis:** Download and visualize years of GGAL price history.
+- **Technical Indicators:** Auto-calculates RSI, volatility, and moving average crossovers.
+- **Predictive Model:** Decision tree algorithm to forecast price moves (up/down).
+- **Backtesting:** Test your strategies on historical data with all the juicy performance stats.
+- **GUI:** Visual, point-and-click interface for data, signals, results (no need to fight with the console).
+- **Live Trading:** Generate real-time signals as the market moves.
+- **Customization:** Tweak your model’s parameters and strategy settings any way you like.
 
-![Pantalla de Datos](https://firebasestorage.googleapis.com/v0/b/leonardo-blog.firebasestorage.app/o/proyectos%2Fdata_screen.webp?alt=media&token=d3e72699-11ae-4466-9b65-6d98c6ac967e)
-*Visualización de datos históricos y análisis técnico*
+---
 
-![Pantalla de Modelo](https://firebasestorage.googleapis.com/v0/b/leonardo-blog.firebasestorage.app/o/proyectos%2Fmodel_screen.webp?alt=media&token=afb40be9-4b22-48c5-a344-33f9aef02281)
-*Entrenamiento y evaluación del modelo predictivo*
+## Screenshots
 
-![Pantalla de Backtest](https://firebasestorage.googleapis.com/v0/b/leonardo-blog.firebasestorage.app/o/proyectos%2Fbacktest_screen.webp?alt=media&token=dc80b555-d35a-4de4-981b-61c9122695c8)
-*Resultados de backtesting y análisis de rendimiento*
+![Data Screen](https://firebasestorage.googleapis.com/v0/b/leonardo-blog.firebasestorage.app/o/proyectos%2Fdata_screen.webp?alt=media&token=d3e72699-11ae-4466-9b65-6d98c6ac967e)
+*View and analyze historical GGAL data*
 
-![Pantalla de Trading](https://firebasestorage.googleapis.com/v0/b/leonardo-blog.firebasestorage.app/o/proyectos%2Ftrading_screen.webp?alt=media&token=ad79e8a0-8fdb-4c22-9b02-0d8a9649978c)
-*Interfaz de trading en vivo con señales en tiempo real*
+![Model Screen](https://firebasestorage.googleapis.com/v0/b/leonardo-blog.firebasestorage.app/o/proyectos%2Fmodel_screen.webp?alt=media&token=afb40be9-4b22-48c5-a344-33f9aef02281)
+*Train and evaluate predictive models*
 
-## Instalación
+![Backtest Screen](https://firebasestorage.googleapis.com/v0/b/leonardo-blog.firebasestorage.app/o/proyectos%2Fbacktest_screen.webp?alt=media&token=dc80b555-d35a-4de4-981b-61c9122695c8)
+*Backtest results and performance analysis*
 
-### Requisitos Previos
+![Trading Screen](https://firebasestorage.googleapis.com/v0/b/leonardo-blog.firebasestorage.app/o/proyectos%2Ftrading_screen.webp?alt=media&token=ad79e8a0-8fdb-4c22-9b02-0d8a9649978c)
+*Live trading interface with real-time signals*
 
-- Python 3.8 o superior
-- pip (gestor de paquetes de Python)
+---
 
-### Dependencias
+## Installation
 
-El proyecto requiere las siguientes bibliotecas:
+### Requirements
+
+- Python 3.8 or higher
+- pip (Python package manager)
+
+### Dependencies
+
+Install these with pip (or use the `requirements.txt`):
 
 ```
 numpy>=1.19.0
@@ -53,183 +60,186 @@ PyQt5>=5.15.0
 joblib>=0.16.0
 ```
 
-### Instalación Paso a Paso
+### Step-by-Step Install
 
-1. Clonar el repositorio:
+1. **Clone the repo:**
    ```bash
    git clone https://github.com/leoprimero/GGAL-Trading-Bot.git
    cd GGAL-Trading-Bot
    ```
 
-2. Crear un entorno virtual (opcional pero recomendado):
+2. **(Optional) Create a virtual environment:**
    ```bash
    python -m venv venv
-   
-   # En Windows
-   venv\Scripts\activate
-   
-   # En macOS/Linux
+
+   # On Windows
+   venv\Scriptsctivate
+
+   # On macOS/Linux
    source venv/bin/activate
    ```
 
-3. Instalar dependencias:
+3. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Ejecutar la aplicación:
+4. **Run the app:**
    ```bash
    python src/main.py
    ```
 
-## Guía de Uso
+---
 
-### Carga de Datos
+## How to Use
 
-1. En la pestaña "Datos", ingrese el ticker (por defecto GGAL) y la fecha de inicio.
-2. Haga clic en "Cargar Datos" para descargar y procesar los datos históricos.
-3. Explore los datos en formato tabular o gráfico.
+### Load Data
 
-### Entrenamiento del Modelo
+1. Go to the **Data** tab, enter the ticker (default is GGAL) and the start date.
+2. Click **Load Data** to download and process historical prices.
+3. Explore the data in table or chart format.
 
-1. En la pestaña "Modelo", configure los parámetros del árbol de decisión:
-   - Profundidad máxima: controla la complejidad del modelo
-   - Criterio: método para evaluar divisiones (entropy o gini)
-   - Tamaño de prueba: porcentaje de datos para validación
-2. Haga clic en "Entrenar Modelo" para iniciar el entrenamiento.
-3. Revise las métricas de rendimiento (precisión, recall, F1-score, etc.).
-4. Opcionalmente, guarde el modelo para uso futuro.
+### Train the Model
+
+1. In the **Model** tab, set your decision tree parameters:
+   - Max depth: model complexity
+   - Criterion: split method (`entropy` or `gini`)
+   - Test size: data portion for validation
+2. Click **Train Model** to start training.
+3. Check performance metrics (accuracy, recall, F1-score, etc.).
+4. Optionally, save your trained model.
 
 ### Backtesting
 
-1. En la pestaña "Backtest", configure los parámetros de la estrategia:
-   - Umbral de confianza: nivel mínimo de probabilidad para generar señales
-   - Capital inicial: monto para simular operaciones
-   - Tamaño de posición: porcentaje del capital a invertir en cada operación
-2. Haga clic en "Ejecutar Backtest" para evaluar la estrategia.
-3. Analice los resultados:
-   - Métricas de rendimiento (retorno total, Sharpe ratio, etc.)
-   - Gráfico de equity (evolución del capital)
-   - Visualización de señales en el gráfico de precios
+1. In the **Backtest** tab, set your strategy parameters:
+   - Confidence threshold: minimum probability for signals
+   - Initial capital: simulated account balance
+   - Position size: percent of capital per trade
+2. Click **Run Backtest** to test the strategy.
+3. Analyze results:
+   - Performance metrics (total return, Sharpe ratio, etc.)
+   - Equity curve
+   - Signal visualization on price chart
 
-### Trading en Vivo
+### Live Trading
 
-1. En la pestaña "Trading en Vivo", haga clic en "Actualizar Datos" para obtener la información más reciente.
-2. Revise la última predicción y señal generada.
-3. Configure el modo automático y el intervalo de actualización si desea automatizar el proceso.
-4. Utilice los botones "Iniciar Trading" y "Detener Trading" para controlar la ejecución.
-5. Consulte el registro de operaciones para ver el historial de señales y acciones.
+1. In the **Live Trading** tab, hit **Update Data** for the latest prices.
+2. Review the latest prediction and signal.
+3. Set auto-mode and refresh interval if you want automation.
+4. Use **Start Trading** and **Stop Trading** to control execution.
+5. Check the operations log for your trading history.
 
-## Estructura del Proyecto
+---
+
+## Project Structure
 
 ```
 GGAL-Trading-Bot/
 │
-├── docs/                      # Documentación
-│   └── images/                # Imágenes para documentación
+├── docs/                      # Documentation
+│   └── images/                # Docs images
 │
-├── notebooks/                 # Jupyter notebooks para análisis exploratorio
+├── notebooks/                 # Exploratory notebooks
 │
-├── src/                       # Código fuente
-│   ├── data/                  # Módulos para manejo de datos
-│   │   └── data_loader.py     # Carga y procesamiento de datos
-│   │
-│   ├── models/                # Módulos para modelos predictivos
-│   │   └── model_trainer.py   # Entrenamiento y evaluación de modelos
-│   │
-│   ├── strategies/            # Módulos para estrategias de trading
-│   │   └── trading_strategy.py # Implementación de estrategias
-│   │
-│   ├── gui/                   # Interfaz gráfica
-│   │   └── main_app.py        # Aplicación principal
-│   │
-│   ├── utils/                 # Utilidades generales
-│   │
-│   └── main.py                # Punto de entrada principal
+├── src/                       # Source code
+│   ├── data/                  # Data handling modules
+│   │   └── data_loader.py
+│   ├── models/                # Model training/evaluation
+│   │   └── model_trainer.py
+│   ├── strategies/            # Trading strategies
+│   │   └── trading_strategy.py
+│   ├── gui/                   # GUI app
+│   │   └── main_app.py
+│   ├── utils/                 # General utilities
+│   └── main.py                # Main entry point
 │
-├── tests/                     # Pruebas unitarias y de integración
+├── tests/                     # Unit/integration tests
 │
-├── .gitignore                 # Archivos ignorados por git
-├── LICENSE                    # Licencia del proyecto
-├── README.md                  # Este archivo
-└── requirements.txt           # Dependencias del proyecto
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
 ```
 
-## Fundamentos Técnicos
+---
 
-### Indicadores Utilizados
+## Technical Overview
 
-- **RSI (Relative Strength Index)**: Mide la velocidad y cambio de los movimientos de precios.
-- **Volatilidad**: Calculada como desviación estándar de los retornos diarios.
-- **Cruces de Medias Móviles**: Relaciones entre medias móviles de diferentes períodos.
+### Indicators Used
 
-### Modelo Predictivo
+- **RSI (Relative Strength Index):** Measures speed and change of price movements.
+- **Volatility:** Standard deviation of daily returns.
+- **Moving Average Crosses:** Relations between moving averages of different periods.
 
-El bot utiliza un árbol de decisión para clasificar los movimientos futuros del precio en dos categorías:
-- **Clase 1**: El precio subirá en el horizonte temporal definido.
-- **Clase 0**: El precio bajará en el horizonte temporal definido.
+### Predictive Model
 
-Los árboles de decisión son particularmente útiles en trading por su interpretabilidad y capacidad para capturar relaciones no lineales entre indicadores técnicos.
+The bot uses a **decision tree** to classify future price moves:
+- **Class 1:** Price is predicted to go up.
+- **Class 0:** Price is predicted to go down.
 
-### Estrategia de Trading
+Decision trees are great for trading—they’re interpretable and can handle non-linear relationships between features.
 
-La estrategia básica implementada sigue estas reglas:
-1. **Señal de Compra**: Cuando el modelo predice subida (clase 1) con probabilidad superior al umbral configurado.
-2. **Señal de Venta**: Cuando el modelo predice bajada (clase 0) con probabilidad superior al umbral configurado.
-3. **Sin Acción**: Cuando la probabilidad está por debajo del umbral de confianza.
+### Trading Strategy
 
-## Personalización y Extensión
+The basic logic:
+1. **Buy Signal:** When the model predicts “up” (class 1) with confidence above the threshold.
+2. **Sell Signal:** When the model predicts “down” (class 0) with confidence above the threshold.
+3. **No Action:** If confidence is below threshold.
 
-### Ajuste de Parámetros
+---
 
-Los principales parámetros que puede ajustar para optimizar el rendimiento son:
+## Customization & Extending
 
-- **Ventana de Predicción**: Modifique la variable `ventana` en `data_loader.py` para cambiar el horizonte temporal de predicción.
-- **Profundidad del Árbol**: Ajuste `max_depth` en la interfaz para controlar la complejidad del modelo.
-- **Umbral de Confianza**: Modifique este valor para ser más o menos conservador en la generación de señales.
+### Tweak the Parameters
 
-### Añadir Nuevos Indicadores
+Main knobs for optimization:
 
-Para incorporar nuevos indicadores técnicos:
+- **Prediction Window:** Change `ventana` in `data_loader.py` for different forecast horizons.
+- **Tree Depth:** Set `max_depth` in the UI for model complexity.
+- **Confidence Threshold:** Adjust to be more aggressive/conservative on signals.
 
-1. Modifique la clase `DataLoader` en `data_loader.py` para calcular el nuevo indicador.
-2. Asegúrese de incluir el nuevo indicador en el conjunto de características para el modelo.
+### Add New Indicators
 
-### Implementar Nuevas Estrategias
+1. Edit `DataLoader` in `data_loader.py` to compute new features.
+2. Make sure to add the new indicator to your model’s feature set.
 
-Para crear estrategias alternativas:
+### Implement New Strategies
 
-1. Extienda la clase `TradingStrategy` en `trading_strategy.py` o cree una nueva clase que implemente la lógica deseada.
-2. Modifique la interfaz gráfica para permitir la selección entre diferentes estrategias.
+1. Extend `TradingStrategy` in `trading_strategy.py` or add your own strategy class.
+2. Update the GUI to select between strategies.
 
-## Consideraciones de Riesgo
+---
 
-Este software se proporciona únicamente con fines educativos e informativos. Tenga en cuenta:
+## Risk Disclaimer
 
-- **No es Asesoramiento Financiero**: Las señales generadas no constituyen recomendaciones de inversión.
-- **Riesgo de Mercado**: El trading de acciones implica riesgo de pérdida de capital.
-- **Limitaciones del Modelo**: Los modelos predictivos tienen limitaciones y no pueden anticipar eventos extraordinarios del mercado.
-- **Validación**: Siempre realice backtesting exhaustivo y validación antes de utilizar cualquier estrategia con capital real.
+This software is for **educational and informational purposes only.**  
+Please note:
 
-## Contribuciones
+- **Not Financial Advice:** The signals generated are not investment recommendations.
+- **Market Risk:** Stock trading involves risk of capital loss.
+- **Model Limitations:** No model can predict all market events.
+- **Validation:** Always backtest thoroughly before trading with real money.
 
-Las contribuciones son bienvenidas. Para contribuir:
+---
 
-1. Haga un fork del repositorio
-2. Cree una rama para su funcionalidad (`git checkout -b feature/nueva-funcionalidad`)
-3. Realice sus cambios y haga commit (`git commit -m 'Añadir nueva funcionalidad'`)
-4. Haga push a la rama (`git push origin feature/nueva-funcionalidad`)
-5. Abra un Pull Request
+## Contributions
 
-## Licencia
+Contributions are welcome!
 
-Este proyecto está licenciado bajo la Licencia MIT - vea el archivo [LICENSE](LICENSE) para más detalles.
+1. Fork the repo.
+2. Create a feature branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -m 'Add feature'`).
+4. Push to your branch (`git push origin feature/your-feature`).
+5. Open a Pull Request.
 
-## Autor
+---
 
-**Leonardo Caliva** - [@leoprimero](https://github.com/leoprimero)
+## License
 
-## Agradecimientos
+MIT. Use it, fork it, break it, fix it—just don’t blame me if you lose money.
 
-- Agradecimiento especial a la comunidad de trading algorítmico y machine learning.
-- Basado en conceptos de aprendizaje supervisado y algoritmos de clasificación para trading.
+---
+
+## Author
+
+Leonardo I (a.k.a. [@leonardoprimero](https://github.com/leonardoprimero))
