@@ -1,6 +1,6 @@
 # GGAL Trading Bot
 
-![GGAL Trading Bot](docs/images/logo.png)
+![GGAL Trading Bot](https://firebasestorage.googleapis.com/v0/b/leonardo-blog.firebasestorage.app/o/proyectos%2Flogo.webp?alt=media&token=53ca6d46-6501-4207-bb7b-f8c26c8c0c72)
 
 ## Descripción
 
@@ -20,16 +20,16 @@ La aplicación combina análisis técnico, machine learning y backtesting en una
 
 ## Capturas de Pantalla
 
-![Pantalla de Datos](docs/images/data_screen.png)
+![Pantalla de Datos](https://firebasestorage.googleapis.com/v0/b/leonardo-blog.firebasestorage.app/o/proyectos%2Fdata_screen.webp?alt=media&token=d3e72699-11ae-4466-9b65-6d98c6ac967e)
 *Visualización de datos históricos y análisis técnico*
 
-![Pantalla de Modelo](docs/images/model_screen.png)
+![Pantalla de Modelo](https://firebasestorage.googleapis.com/v0/b/leonardo-blog.firebasestorage.app/o/proyectos%2Fmodel_screen.webp?alt=media&token=afb40be9-4b22-48c5-a344-33f9aef02281)
 *Entrenamiento y evaluación del modelo predictivo*
 
-![Pantalla de Backtest](docs/images/backtest_screen.png)
+![Pantalla de Backtest](https://firebasestorage.googleapis.com/v0/b/leonardo-blog.firebasestorage.app/o/proyectos%2Fbacktest_screen.webp?alt=media&token=dc80b555-d35a-4de4-981b-61c9122695c8)
 *Resultados de backtesting y análisis de rendimiento*
 
-![Pantalla de Trading](docs/images/trading_screen.png)
+![Pantalla de Trading](https://firebasestorage.googleapis.com/v0/b/leonardo-blog.firebasestorage.app/o/proyectos%2Ftrading_screen.webp?alt=media&token=ad79e8a0-8fdb-4c22-9b02-0d8a9649978c)
 *Interfaz de trading en vivo con señales en tiempo real*
 
 ## Instalación
